@@ -17,10 +17,10 @@ function updatePriceByProduct(productPrice, index){
 }
 
 function getTotalPrice() {
-  var ItemPrice = document.querySelectorAll('.ItemPrice')[0].textContent = "25.00";
+  var ItemPrice = document.querySelectorAll('.ItemPrice').textContent;
   var ItemsQuanty = document.getElementById("quantity").value;
-  var TotalPrice = document.querySelectorAll('.ItemTotalPrice')[0].textContent = ItemsQuanty * ItemPrice
-  console.log(TotalPrice);
+  var TotalPrice = document.querySelectorAll('.ItemTotalPrice').textContent = ItemsQuanty * ItemPrice
+  console.log(ItemPrice);
 }
 
 function createQuantityInput(){
@@ -59,20 +59,3 @@ window.onload = function(){
     deleteButtons[i].onclick = deleteItem;
   }
 };
-
-
-
-
-
-
-var CalcTotalPrices = document.getElementById("calc-prices-buttonn");
-var total = document.createTextNode("hola");
-CalcTotalPrices.appendChild(total);
-
-/* var CalcTotalPrices = document.getElementById("calc-prices-buttonn");
-CalcTotalPrices.onclick = function(){
-  console.log("adding an element to the list");
-} 
-
-var prueba = document.getElementById('calc-prices-buttonn');
-prueba.innerHTML = "hola"; */

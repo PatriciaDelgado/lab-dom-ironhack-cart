@@ -62,13 +62,14 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 .FormWapper__top{
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .FormWapper__bottom{
   

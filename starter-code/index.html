@@ -16,7 +16,17 @@
     <div class="FormWapper">
       <div class="FormWapper__top">
         <div class="ItemName"><span>Producto 1</span></div>
-        <div class="ItemPrice"><span>$25.00</span></div>
+        <div class="ItemPrice"><span>25.00</span></div>
+        <div class="InputsWrapp quantity">
+          <label for="quantity">QT</label>
+          <input type="number" id="quantity" name="quantity" class="" value="1">
+        </div>
+        <div class="ItemTotalPrice"><span>$0.00</span></div>
+        <button class="btn btn-delete">Delete</button>
+      </div>
+      <div class="FormWapper__top">
+        <div class="ItemName"><span>Producto 1</span></div>
+        <div class="ItemPrice"><span>25.00</span></div>
         <div class="InputsWrapp quantity">
           <label for="quantity">QT</label>
           <input type="number" id="quantity" name="quantity" class="" value="1">
@@ -25,9 +35,10 @@
         <button class="btn btn-delete">Delete</button>
       </div>
       <div class="FormWapper__bottom">
-        <button class="btn btn-success" id="calc-prices-button">Calculate Prices</button>
+        <button class="btn btn-success" id="calc-prices-button" onclick="CalculatePricesButton()">Calculate Prices</button>
       </div>
     </div>
+    
   </main>
   <script type="text/javascript" src="./js/index.js"></script>
 </body>
