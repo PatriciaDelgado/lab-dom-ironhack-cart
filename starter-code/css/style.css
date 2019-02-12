@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 input {
   border: solid 1px black;
 }
@@ -38,4 +42,34 @@ input {
 
 .quantity {
   margin: 0 5px;
+}
+
+.MainContainer{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.MainTitle{
+  width: 50%;
+  font-size: 40px;
+  align-self: flex-end;
+  margin-bottom:  30px;
+}
+.FormWapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.FormWapper__top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.FormWapper__bottom{
+  
 }
